@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="equipos.css">
+    <title>Equipos</title>
+</head>
+<body>
+       <div class="contenedor">
+
+        <h1>Registrar Cliente</h1>
+
+        <form action="guardar_equipos.php" method="POST">
+
+            <label for="id_clientes>Id Cliente:</label>
+            <input type="text" id="id_clientes" name="id_clientes" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono">
+
+            <input type="submit" value="Guardar Equipos">
+            
+
+
+        </form>
+
+        <br>
+            <a href="mostrar_clientes.php">
+            Ver clientes registrados
+        </a>
+
+
+    </div> 
+</body>
+</html>

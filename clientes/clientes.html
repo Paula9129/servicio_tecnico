@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="clientes.css">
+
+    <title>Registrar Cliente</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Registrar Cliente</h1>
+
+        <form action="guardar_cliente.php" method="POST">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono">
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo">
+
+            <input type="submit" value="Guardar Cliente">
+            
+        <br>
+            <a href="../menu.php">
+            Volver al Menu Principal
+        </a>
+
+        </form>
+
+        <br>
+            <a href="mostrar_clientes.php">
+            Ver clientes registrados
+        </a>
+
+
+    </div>
+
+</body>
+</html>
